@@ -1,0 +1,24 @@
+[gd_scene load_steps=3 format=3 uid="uid://cioqwb4grejbs"]
+
+[ext_resource type="Script" path="res://addons/ui_kid/auto_viewport_size/auto_viewport_size.gd" id="1_5gx76"]
+[ext_resource type="Texture2D" uid="uid://bdjvt3pjwrjtt" path="res://icon.svg" id="2_r3jwx"]
+
+[node name="Demo" type="Node2D"]
+
+[node name="AutoViewportSize" type="MarginContainer" parent="."]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_right = 1152.0
+offset_bottom = 648.0
+grow_horizontal = 0
+grow_vertical = 2
+size_flags_horizontal = 3
+size_flags_vertical = 3
+script = ExtResource("1_5gx76")
+
+[node name="TextureRect" type="TextureRect" parent="AutoViewportSize"]
+layout_mode = 2
+texture = ExtResource("2_r3jwx")
+expand_mode = 1
+stretch_mode = 5
