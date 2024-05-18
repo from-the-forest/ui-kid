@@ -1,6 +1,15 @@
 # UIKid
 
+###### Addon for Godot Engine 4.2
+
 UIKid is a playful (and currently very, very, very... sparse) collection of tools designed to help you create awesome user interfaces in Godot Engine. It's currently in its early stages, so expect some rough edges. But hey, that's part of the fun, right? If you're looking for a serious, corporate-approved UI solution, this might not be for you. But if you're ready to play and experiment, welcome to the UIKid playground!
+
+The root folder contains a [project.godot](project.godot) file meant to be used with [Godot Engine](https://godotengine.org), the open source 2D and 3D game engine.
+
+I have provided a [demo.tscn](demo.tscn) to showcase InputKid's capabilities.
+
+###### See Also [InputKid](https://github.com/from-the-forest/input-kid) for some input handling tools
+
 
 ## What's Inside?
 
